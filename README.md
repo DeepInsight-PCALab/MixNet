@@ -30,7 +30,9 @@ CUDA_VISIBLE_DEVICES=0 python imagenet.py -d ../imagenet/ -j 4 --arch mixnet105 
 ```
 
 ## Pretrained models
+
 | Method | Top-1 error | Pretrained model |
+| - | - | - | 
 | MixNet-105 | 23.3 | [Download(https://pan.baidu.com/s/1q-LjwofEu2nM7feZClTA7w)] |
 | MixNet-121 | 21.9 | [Download(https://pan.baidu.com/s/1wIzkO0UVIXd_BPx_lmT7_w)] |
 | MixNet-141 | 20.4 | [Download(https://pan.baidu.com/s/1lYczUcAczhkQqpEwjZT66Q)] |
