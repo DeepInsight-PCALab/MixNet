@@ -1,2 +1,0 @@
-CUDA_VISIBLE_DEVICES=1 python cifar.py --dataset cifar10 --depth 100 --k1 12 --k2 12 --train-batch 64 --epochs 300 --schedule 150 225 --wd 1e-4 --gamma 0.1 --checkpoint checkpoints/cifar10/tmp/
-CUDA_VISIBLE_DEVICES=0,1 python imagenet.py -d ../imagenet/ -j 4 --arch mixnet141 --checkpoint checkpoints/imagenet/tmp/ --test-batch 200 --pretrained ../MixNet_test/checkpoints/imagenet/scnn_k_48_d_161/mixnet141.pth.tar  --evaluate
