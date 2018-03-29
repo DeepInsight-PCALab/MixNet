@@ -29,10 +29,18 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python imagenet.py -d ../imagenet/ -j 4 --arch mixn
 CUDA_VISIBLE_DEVICES=0 python imagenet.py -d ../imagenet/ -j 4 --arch mixnet105 --test-batch 20 --pretrained pretrained/mixnet105.pth.tar --evaluate
 ```
 
+## Pretrained models
+| Method | Top-1 error | Pretrained model |
+| MixNet-105 | 23.3 | [Download(https://pan.baidu.com/s/1q-LjwofEu2nM7feZClTA7w)] |
+| MixNet-121 | 21.9 | [Download(https://pan.baidu.com/s/1wIzkO0UVIXd_BPx_lmT7_w)] |
+| MixNet-141 | 20.4 | [Download(https://pan.baidu.com/s/1lYczUcAczhkQqpEwjZT66Q)] |
+
 ## Citation
+```
 @article{wang2018mixed,  
   title={Mixed Link Networks},  
   author={Wang, Wenhai and Li, Xiang and Yang, Jian and Lu, Tong},  
   journal={arXiv preprint arXiv:1802.01808},  
   year={2018}  
 }
+```
