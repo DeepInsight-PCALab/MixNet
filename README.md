@@ -4,6 +4,7 @@ MixNet: [[Arxiv](https://arxiv.org/abs/1802.01808)]
 by Wenhai Wang, Xiang Li, Jian Yang, Tong Lu
 
 IMAGINE Lab@National Key Laboratory for Novel Software Technology, Nanjing University.
+
 DeepInsight@PCALab, Nanjing University of Science and Technology.
 
 ## Citation
