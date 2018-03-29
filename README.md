@@ -29,13 +29,20 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python imagenet.py -d ../imagenet/ -j 4 --arch mixn
 CUDA_VISIBLE_DEVICES=0 python imagenet.py -d ../imagenet/ -j 4 --arch mixnet105 --test-batch 20 --pretrained pretrained/mixnet105.pth.tar --evaluate
 ```
 
-## Pretrained models
+## Results on CIFAR
+| Model | Parameters | CIFAR-10 | CIFAR-100 | 
+| - | - | - | - |
+| MixNet-100 (k1 = 12, k2 = 12) | 1.5M | 4.19 | 21.12 |
+| MixNet-250 (k1 = 24, k2 = 24) | 29.0M | 3.32 | 17.06 |
+| MixNet-190 (k1 = 40, k2 = 40) | 48.5M | 3.13 | 16.96 |
 
-| Method | Top-1 error | Pretrained model |
-| - | - | - | 
-| MixNet-105 | 23.3 | [Download(43.2M)](https://pan.baidu.com/s/1q-LjwofEu2nM7feZClTA7w) |
-| MixNet-121 | 21.9 | [Download(84.3M)](https://pan.baidu.com/s/1wIzkO0UVIXd_BPx_lmT7_w) |
-| MixNet-141 | 20.4 | [Download(158.1M)](https://pan.baidu.com/s/1lYczUcAczhkQqpEwjZT66Q) |
+## Results on ImageNet and Pretrained Models
+
+| Method | Parameters | Top-1 error | Pretrained model |
+| - | - | - | - |
+| MixNet-105 (k1 = 32, k2 = 32) | 11.16M | 23.3 | [Download(43.2M)](https://pan.baidu.com/s/1q-LjwofEu2nM7feZClTA7w) |
+| MixNet-121 (k1 = 40, k2 = 40) | 21.86M | 21.9 | [Download(84.3M)](https://pan.baidu.com/s/1wIzkO0UVIXd_BPx_lmT7_w) |
+| MixNet-141 (k1 = 48, k2 = 48) | 41.07M | 20.4 | [Download(158.1M)](https://pan.baidu.com/s/1lYczUcAczhkQqpEwjZT66Q) |
 
 ## Citation
 ```
