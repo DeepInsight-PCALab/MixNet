@@ -1,5 +1,4 @@
 # Mixed Link Networks
-========
 MixNet: [[Arxiv](https://arxiv.org/abs/1802.01808)]
 
 by Wenhai Wang, Xiang Li, Jian Yang, Tong Lu
