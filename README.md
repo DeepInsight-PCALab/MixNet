@@ -6,12 +6,14 @@ by Wenhai Wang, Xiang Li, Jian Yang, Tong Lu
 IMAGINE Lab@National Key Laboratory for Novel Software Technology, Nanjing University.  
 DeepInsight@PCALab, Nanjing University of Science and Technology.
 
-## Install
+## Requirements
 * Install [PyTorch v0.2.0](http://pytorch.org/)
 * Clone recursively
 ```
 git clone --recursive https://github.com/DeepInsight-PCALab/MixNet.git
 ```
+* Download the ImageNet dataset and move validation images to labeled subfolders
+    * To do this, you can use the following script: https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh
 
 ## Training
 ### CIFAR-10
