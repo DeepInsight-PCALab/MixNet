@@ -48,10 +48,12 @@ CUDA_VISIBLE_DEVICES=0 python imagenet.py -d ../imagenet/ -j 4 --arch mixnet105 
 
 ## Citation
 ```
-@article{wang2018mixed,  
-  title={Mixed Link Networks},  
-  author={Wang, Wenhai and Li, Xiang and Yang, Jian and Lu, Tong},  
-  journal={arXiv preprint arXiv:1802.01808},  
-  year={2018}  
+@inproceedings{wang2018mixed,
+  title={Mixed link networks},
+  author={Wang, Wenhai and Li, Xiang and Lu, Tong and Yang, Jian},
+  booktitle={Proceedings of the 27th International Joint Conference on Artificial Intelligence},
+  pages={2819--2825},
+  year={2018},
+  organization={AAAI Press}
 }
 ```
